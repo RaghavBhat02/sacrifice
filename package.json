@@ -1,0 +1,25 @@
+{
+  "name": "sacrifice",
+  "version": "1.0.0",
+  "description": "sacrifice game bot for discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaghavBhat02/sacrifice.git"
+  },
+  "author": "RB_02",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaghavBhat02/sacrifice/issues"
+  },
+  "homepage": "https://github.com/RaghavBhat02/sacrifice#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "discord.js-commando": "^0.12.3",
+    "dotenv": "^8.2.0"
+  }
+}
