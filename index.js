@@ -17,6 +17,7 @@ const client = new Commando.CommandoClient({
 client.on('ready', ()=> {
   client.user.setActivity('It\'s time');
   console.log("Bot is ready");
+  new MessageHandler(client);
 });
 client.on("error", console.error);
 

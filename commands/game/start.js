@@ -1,5 +1,6 @@
 const { Command } = require("discord.js-commando");
 const  Cultivation  = require('/Users/raghavbhat/sacrifice/structs/Cultivation.js')
+const Cultivator = require('/Users/raghavbhat/sacrifice/structs/Cultivator.js');
 module.exports = class startCommand extends Command {
   constructor(client) {
     super(client, {
@@ -21,10 +22,10 @@ module.exports = class startCommand extends Command {
     let sendBack = "You have ";
     if(confirm[0].toLowerCase() === 'y') {
       sendBack += "begun your journey on the path of cultivation!";
-      let cultivation = new Cultivation();
+      
       message.channel.send(sendBack);
-      cultivation.cultivate(message);
-
+      let cultivator = new Cultivator(message.author,message);
+      cultivator.getElement();
       return;
 
     } else if (confirm[0].toLowerCase() === 'n') {
