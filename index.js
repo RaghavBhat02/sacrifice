@@ -13,7 +13,7 @@ const client = new Commando.CommandoClient({
   disableEveryone: true,
   ws: { intents: myIntents }
 })
-
+//client on
 client.on('ready', ()=> {
   client.user.setActivity('It\'s time');
   console.log("Bot is ready");
