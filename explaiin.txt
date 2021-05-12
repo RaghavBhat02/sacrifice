@@ -1,0 +1,24 @@
+print("hello world")
+
+Compiler_Based
+C++
+Write the actual code file (.cpp) then save it as .exe and then run .exe again
+
+RunTime Languages
+Python
+Write the code file (.py) then 
+
+
+Browser-Based Language
+JavaScript
+
+Frontend:
+HTML - Heading, Paragraph, Image, Button
+CSS (Cascading Style Sheets) - Location, Font of Helvetica, font size for paragaphs is 12, Image has a certain size, give it some colors
+JAVASCRIPT - Makeup, Computation, Click that button, remove the image - Dynamically adding, removing, and modifying HTML and CSS
+
+Backend:
+GET /adizee/profile/ => profile.html
+POST /
+
+node 
